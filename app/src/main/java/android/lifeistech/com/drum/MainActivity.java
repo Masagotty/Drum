@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         mSoundPool.play(mSoundID[7], 1.0F, 1.0F, 0, 0, 1.0F);
     }
 
-    public void bass(View v) {
+    public void Bass(View v) {
         mSoundPool.play(mSoundID[8], 1.0F, 1.0F, 0, 0, 1.0F);
     }
 }
