@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
             R.raw.tom3,
             R.raw.hihat,
             R.raw.snare,
-            R.raw.bass
+            R.raw.bass,
+            R.raw.cymbal9
     };
 
 
@@ -88,5 +89,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void Bass(View v) {
         mSoundPool.play(mSoundID[8], 1.0F, 1.0F, 0, 0, 1.0F);
+    }
+
+    public void cymbal9(View v) {
+        mSoundPool.play(mSoundID[9], 1.0F, 1.0F, 0, 0, 1.0F);
     }
 }
